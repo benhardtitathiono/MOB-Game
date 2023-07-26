@@ -55,19 +55,11 @@
 </div>
 
 <script>
-    // Wait for the document to be ready
     $(document).ready(function() {
         // When the modal trigger image is clicked
         $("#modalTrigger1").click(function() {
             // Show the modal
             $("#staticBackdrop").modal("show");
-        });
-
-        // Optional: If you want to close the modal when clicking outside of it
-        $("#staticBackdrop").on("click", function(event) {
-            if ($(event.target).hasClass("modal")) {
-                $(this).modal("hide");
-            }
         });
     });
 </script>

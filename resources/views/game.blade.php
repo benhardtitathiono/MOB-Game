@@ -679,12 +679,9 @@
 <script>
     function handleModalAnswer(modalId) {
         // Event listener for the "Understood" button click
-        $(modalId + " .btn-primary").click(function() {
+        var userInput = $(modalId + " input").val().trim();
             // Get the input value
-            var userInput = $(modalId + " input").val().trim();
-
             expectedAnswers = ["riau", "RIAU", "Riau"];
-
             // Compare the input value with the expected answers
             if (expectedAnswers.includes(userInput)) {
                 // Here, you can do something when the answer is correct, e.g., display a success message.
@@ -703,7 +700,6 @@
                 // Here, you can do something when the answer is incorrect, e.g., display an error message.
                 alert("Incorrect answer. Please try again.");
             }
-        });
     }
 
     $(document).ready(function() {

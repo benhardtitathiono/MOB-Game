@@ -232,74 +232,47 @@
             // Show the modal
             $("#staticBackdrop1").modal("show");
         });
-    });
 
-    $(document).ready(function() {
-        // When the modal trigger image is clicked
         $("#modalTrigger2").click(function() {
             // Show the modal
             $("#staticBackdrop2").modal("show");
         });
-    });
 
-    $(document).ready(function() {
-        // When the modal trigger image is clicked
         $("#modalTrigger3").click(function() {
             // Show the modal
             $("#staticBackdrop3").modal("show");
         });
-    });
 
-    $(document).ready(function() {
-        // When the modal trigger image is clicked
         $("#modalTrigger4").click(function() {
             // Show the modal
             $("#staticBackdrop4").modal("show");
         });
-    });
 
-    $(document).ready(function() {
-        // When the modal trigger image is clicked
         $("#modalTrigger5").click(function() {
             // Show the modal
             $("#staticBackdrop5").modal("show");
         });
-    });
 
-    $(document).ready(function() {
-        // When the modal trigger image is clicked
         $("#modalTrigger6").click(function() {
             // Show the modal
             $("#staticBackdrop6").modal("show");
         });
-    });
 
-    $(document).ready(function() {
-        // When the modal trigger image is clicked
         $("#modalTrigger7").click(function() {
             // Show the modal
             $("#staticBackdrop7").modal("show");
         });
-    });
 
-    $(document).ready(function() {
-        // When the modal trigger image is clicked
         $("#modalTrigger8").click(function() {
             // Show the modal
             $("#staticBackdrop8").modal("show");
         });
-    });
 
-    $(document).ready(function() {
-        // When the modal trigger image is clicked
         $("#modalTrigger9").click(function() {
             // Show the modal
             $("#staticBackdrop9").modal("show");
         });
-    });
 
-    $(document).ready(function() {
-        // When the modal trigger image is clicked
         $("#modalTrigger10").click(function() {
             // Show the modal
             $("#staticBackdrop10").modal("show");

@@ -10,26 +10,42 @@
 
 <div class="container text-center position-absolute top-50 start-50 translate-middle">
     <div class="row row-cols-5">
-        <img src="{{ asset('images/MOB_Game_Asset_01.jpg') }}" alt="" id="modalTrigger1"
+        <img src="{{ asset('images/MOB_Game_Asset_01.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
-        <img src="{{ asset('images/MOB_Game_Asset_02.jpg') }}" alt="" id="modalTrigger2"
+        <img src="{{ asset('images/MOB_Game_Asset_02.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
-        <img src="{{ asset('images/MOB_Game_Asset_03.jpg') }}" alt="" id="modalTrigger3"
+        <img src="{{ asset('images/MOB_Game_Asset_03.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
-        <img src="{{ asset('images/MOB_Game_Asset_04.jpg') }}" alt="" id="modalTrigger4"
+        <img src="{{ asset('images/MOB_Game_Asset_04.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
-        <img src="{{ asset('images/MOB_Game_Asset_05.jpg') }}" alt="" id="modalTrigger5"
+        <img src="{{ asset('images/MOB_Game_Asset_05.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
-        <img src="{{ asset('images/MOB_Game_Asset_06.jpg') }}" alt="" id="modalTrigger6"
+        <img src="{{ asset('images/MOB_Game_Asset_06.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
-        <img src="{{ asset('images/MOB_Game_Asset_07.jpg') }}" alt="" id="modalTrigger7"
+        <img src="{{ asset('images/MOB_Game_Asset_07.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
-        <img src="{{ asset('images/MOB_Game_Asset_08.jpg') }}" alt="" id="modalTrigger8"
+        <img src="{{ asset('images/MOB_Game_Asset_08.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
-        <img src="{{ asset('images/MOB_Game_Asset_09.jpg') }}" alt="" id="modalTrigger9"
+        <img src="{{ asset('images/MOB_Game_Asset_09.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
-        <img src="{{ asset('images/MOB_Game_Asset_10.jpg') }}" alt="" id="modalTrigger10"
+        <img src="{{ asset('images/MOB_Game_Asset_10.jpg') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col">
+    </div>
+</div>
+
+<div class="container text-center position-absolute top-50 start-50 translate-middle overlayer">
+    <div class="row row-cols-5" 
+    style="color:white; font-size:190px">
+        <div class="overlay" id="modalTrigger1">1</div>
+        <div class="overlay" id="modalTrigger2">2</div>
+        <div class="overlay" id="modalTrigger3">3</div>
+        <div class="overlay" id="modalTrigger4">4</div>
+        <div class="overlay" id="modalTrigger5">5</div>
+        <div class="overlay" id="modalTrigger6">6</div>
+        <div class="overlay" id="modalTrigger7">7</div>
+        <div class="overlay" id="modalTrigger8">8</div>
+        <div class="overlay" id="modalTrigger9">9</div>
+        <div class="overlay" id="modalTrigger10">10</div>
     </div>
 </div>
 
@@ -71,7 +87,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer1-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer('#staticBackdrop1-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -92,7 +109,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer1-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer('#staticBackdrop1-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -113,7 +131,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer2-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer2('#staticBackdrop2-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -134,7 +153,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer2-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer2('#staticBackdrop2-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -155,7 +175,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer2-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer2('#staticBackdrop2-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -176,7 +197,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer3-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer3('#staticBackdrop3-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -197,7 +219,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer3-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer3('#staticBackdrop3-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -219,7 +242,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer3-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer3('#staticBackdrop3-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -241,7 +265,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer4-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer4('#staticBackdrop4-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -262,7 +287,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer4-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer4('#staticBackdrop4-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -283,7 +309,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer4-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer4('#staticBackdrop4-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -304,7 +331,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer5-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer5('#staticBackdrop5-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -327,7 +355,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer5-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer5('#staticBackdrop5-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -348,7 +377,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer5-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer5('#staticBackdrop5-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -370,7 +400,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer6-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer6('#staticBackdrop6-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -391,11 +422,13 @@
                 <input type="text" name="" class="form-control" id="txtAnswer6-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer6('#staticBackdrop6-2')">Understood</button>
             </div>
         </div>
     </div>
 </div>
+
 <div class="modal fade" id="staticBackdrop6-3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -411,7 +444,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer6-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer6('#staticBackdrop6-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -433,7 +467,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer7-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer7('#staticBackdrop7-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -454,7 +489,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer7-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer7('#staticBackdrop7-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -476,7 +512,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer7-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer7('#staticBackdrop7-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -497,7 +534,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer8-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer8('#staticBackdrop8-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -518,7 +556,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer8-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer8('#staticBackdrop8-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -539,7 +578,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer8-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer8('#staticBackdrop8-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -561,7 +601,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer9-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer9('#staticBackdrop9-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -583,7 +624,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer9-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer9('#staticBackdrop9-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -605,7 +647,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer9-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer9('#staticBackdrop9-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -626,7 +669,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer10-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer10('#staticBackdrop10-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -647,7 +691,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer10-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer10('#staticBackdrop10-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -668,7 +713,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer10-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer10('#staticBackdrop10-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -695,9 +741,173 @@
                     $("#staticBackdrop1-2").modal("show");
                 } else if (modalId === "#staticBackdrop1-2") {
                     $("#staticBackdrop1-3").modal("show");
+                } else{
+                    document.getElementById("modalTrigger1").classList.add('hidden');
                 }
             } else {
                 // Here, you can do something when the answer is incorrect, e.g., display an error message.
+                alert("Incorrect answer. Please try again.");
+            }
+    }
+
+    function handleModalAnswer2(modalId) {
+        var userInput = $(modalId + " input").val().trim();
+        expectedAnswers = ["pontianak", "PONTIANAK", "Pontianak"];
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+            if (modalId === "#staticBackdrop2-1") {
+                $("#staticBackdrop2-2").modal("show");
+            } else if (modalId === "#staticBackdrop2-2") {
+                $("#staticBackdrop2-3").modal("show");
+            } else{
+                document.getElementById("modalTrigger2").classList.add('hidden');
+            }
+        } else {
+            alert("Incorrect answer. Please try again.");
+        }
+    }
+
+    function handleModalAnswer3(modalId) {
+        var userInput = $(modalId + " input").val().trim();
+        expectedAnswers = ["kalimantan timur", "Kalimantan Timur", "KALIMANTAN TIMUR", "Kalimantan timur"];
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+            if (modalId === "#staticBackdrop3-1") {
+               $("#staticBackdrop3-2").modal("show");
+            } else if (modalId === "#staticBackdrop3-2") {
+                $("#staticBackdrop3-3").modal("show");
+            } else{
+                document.getElementById("modalTrigger3").classList.add('hidden');
+            }
+            } else {
+                alert("Incorrect answer. Please try again.");
+            }
+    }
+
+    function handleModalAnswer4(modalId) {
+        var userInput = $(modalId + " input").val().trim();
+        expectedAnswers = ["sulawesi utara", "Sulawesi Utara", "SULAWESI UTARA", "Sulawesi utara"];
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+            if (modalId === "#staticBackdrop4-1") {
+                $("#staticBackdrop4-2").modal("show");
+            } else if (modalId === "#staticBackdrop4-2") {
+                $("#staticBackdrop4-3").modal("show");
+            } else{
+                document.getElementById("modalTrigger4").classList.add('hidden');
+            }
+            } else {
+                alert("Incorrect answer. Please try again.");
+            }
+    }
+
+    function handleModalAnswer5(modalId) {
+        var userInput = $(modalId + " input").val().trim();
+        expectedAnswers = ["papua barat", "Papua Barat", "PAPUA BARAT", "Papua barat"];
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+            if (modalId === "#staticBackdrop5-1") {
+                $("#staticBackdrop5-2").modal("show");
+            } else if (modalId === "#staticBackdrop5-2") {
+                $("#staticBackdrop5-3").modal("show");
+            } else{
+                document.getElementById("modalTrigger5").classList.add('hidden');
+            }
+            } else {
+                alert("Incorrect answer. Please try again.");
+            }
+    }
+
+    function handleModalAnswer6(modalId) {
+        var userInput = $(modalId + " input").val().trim();
+        expectedAnswers = ["bengkulu", "Bengkulu", "BENGKULU"];
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+            if (modalId === "#staticBackdrop6-1") {
+                $("#staticBackdrop6-2").modal("show");
+            } else if (modalId === "#staticBackdrop6-2") {
+                $("#staticBackdrop6-3").modal("show");
+            } else{
+                document.getElementById("modalTrigger6").classList.add('hidden');
+            }
+            } else {
+                alert("Incorrect answer. Please try again.");
+            }
+    }
+
+    function handleModalAnswer7(modalId) {
+        var userInput = $(modalId + " input").val().trim();
+        expectedAnswers = ["semarang", "Semarang", "SEMARANG"];
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+            if (modalId === "#staticBackdrop7-1") {
+                $("#staticBackdrop7-2").modal("show");
+            } else if (modalId === "#staticBackdrop7-2") {
+                $("#staticBackdrop7-3").modal("show");
+            } else{
+                document.getElementById("modalTrigger7").classList.add('hidden');
+            }
+            } else {
+                alert("Incorrect answer. Please try again.");
+            }
+    }
+
+    function handleModalAnswer8(modalId) {
+        var userInput = $(modalId + " input").val().trim();
+        expectedAnswers = ["NTB", "Nusa Tenggara Barat", "NUSA TENGGARA BARAT", "nusa tenggara barat"];
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+            if (modalId === "#staticBackdrop8-1") {
+                $("#staticBackdrop8-2").modal("show");
+            } else if (modalId === "#staticBackdrop8-2") {
+                $("#staticBackdrop8-3").modal("show");
+            } else{
+                document.getElementById("modalTrigger8").classList.add('hidden');
+            }
+            } else {
+                alert("Incorrect answer. Please try again.");
+            }
+    }
+
+    function handleModalAnswer9(modalId) {
+        var userInput = $(modalId + " input").val().trim();
+        expectedAnswers = ["Ambon","ambon","AMBON"];
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+            if (modalId === "#staticBackdrop9-1") {
+                $("#staticBackdrop9-2").modal("show");
+            } else if (modalId === "#staticBackdrop9-2") {
+                $("#staticBackdrop9-3").modal("show");
+            } else{
+                document.getElementById("modalTrigger9").classList.add('hidden');
+            }
+            } else {
+                alert("Incorrect answer. Please try again.");
+            }
+    }
+
+    function handleModalAnswer10(modalId) {
+        var userInput = $(modalId + " input").val().trim();
+        expectedAnswers = ["papua","Papua","PAPUA"];
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+            if (modalId === "#staticBackdrop10-1") {
+                $("#staticBackdrop10-2").modal("show");
+            } else if (modalId === "#staticBackdrop10-2") {
+                $("#staticBackdrop10-3").modal("show");
+            } else{
+                document.getElementById("modalTrigger10").classList.add('hidden');
+            }
+            } else {
                 alert("Incorrect answer. Please try again.");
             }
     }

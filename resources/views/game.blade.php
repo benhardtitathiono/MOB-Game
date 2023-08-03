@@ -8,10 +8,12 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+<div id="counterDisplayElement"></div>
+
 <div class="container text-center position-absolute top-50 start-50 translate-middle">
     <div class="row row-cols-5">
-        <img src="{{ asset('images/Number-01.png') }}" alt="" id="modalTrigger1"
-            data-bs-target="#staticBackdrop" class="col">
+        <img src="{{ asset('images/Number-01.png') }}" alt="" id="modalTrigger1" data-bs-target="#staticBackdrop"
+            class="col">
         <img src="{{ asset('images/Number-02.png') }}" alt="" id="modalTrigger2"
             data-bs-target="#staticBackdrop" class="col">
         <img src="{{ asset('images/Number-03.png') }}" alt="" id="modalTrigger3"
@@ -71,7 +73,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer1-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary"  onclick="handleModalAnswer1('#staticBackdrop1-2')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer1('#staticBackdrop1-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -92,7 +95,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer1-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary"  onclick="handleModalAnswer1('#staticBackdrop1-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer1('#staticBackdrop1-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -113,7 +117,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer2-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer2('#staticBackdrop2-1')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer2('#staticBackdrop2-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -134,7 +139,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer2-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer2('#staticBackdrop2-2')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer2('#staticBackdrop2-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -155,7 +161,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer2-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer2('#staticBackdrop2-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer2('#staticBackdrop2-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -176,7 +183,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer3-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer3('#staticBackdrop3-1')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer3('#staticBackdrop3-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -197,7 +205,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer3-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer3('#staticBackdrop3-2')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer3('#staticBackdrop3-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -219,7 +228,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer3-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer3('#staticBackdrop3-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer3('#staticBackdrop3-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -241,7 +251,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer4-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer4('#staticBackdrop4-1')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer4('#staticBackdrop4-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -262,7 +273,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer4-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer4('#staticBackdrop4-2')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer4('#staticBackdrop4-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -283,7 +295,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer4-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer4('#staticBackdrop4-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer4('#staticBackdrop4-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -304,7 +317,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer5-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer5('#staticBackdrop5-1')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer5('#staticBackdrop5-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -327,7 +341,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer5-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer5('#staticBackdrop5-2')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer5('#staticBackdrop5-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -348,7 +363,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer5-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer5('#staticBackdrop5-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer5('#staticBackdrop5-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -370,7 +386,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer6-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer6('#staticBackdrop6-1')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer6('#staticBackdrop6-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -391,7 +408,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer6-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer6('#staticBackdrop6-2')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer6('#staticBackdrop6-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -411,7 +429,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer6-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer6('#staticBackdrop6-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer6('#staticBackdrop6-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -433,7 +452,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer7-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer7('#staticBackdrop7-1')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer7('#staticBackdrop7-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -454,7 +474,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer7-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer7('#staticBackdrop7-2')"> Understood</button>
+                <button type="button" class="btn btn-primary" onclick="handleModalAnswer7('#staticBackdrop7-2')">
+                    Understood</button>
             </div>
         </div>
     </div>
@@ -476,7 +497,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer7-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer7('#staticBackdrop7-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer7('#staticBackdrop7-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -497,7 +519,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer8-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer8('#staticBackdrop8-1')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer8('#staticBackdrop8-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -518,7 +541,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer8-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer8('#staticBackdrop8-2')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer8('#staticBackdrop8-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -539,7 +563,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer8-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer8('#staticBackdrop8-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer8('#staticBackdrop8-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -561,7 +586,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer9-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer9('#staticBackdrop9-1')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer9('#staticBackdrop9-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -583,7 +609,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer9-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer9('#staticBackdrop9-2')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer9('#staticBackdrop9-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -605,7 +632,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer9-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer9('#staticBackdrop9-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer9('#staticBackdrop9-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -626,7 +654,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer10-1"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer10('#staticBackdrop10-1')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer10('#staticBackdrop10-1')">Understood</button>
             </div>
         </div>
     </div>
@@ -647,7 +676,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer10-2"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer10('#staticBackdrop10-2')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer10('#staticBackdrop10-2')">Understood</button>
             </div>
         </div>
     </div>
@@ -668,7 +698,8 @@
                 <input type="text" name="" class="form-control" id="txtAnswer10-3"
                     placeholder="Enter Your Answer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" onclick="handleModalAnswer10('#staticBackdrop10-3')">Understood</button>
+                <button type="button" class="btn btn-primary"
+                    onclick="handleModalAnswer10('#staticBackdrop10-3')">Understood</button>
             </div>
         </div>
     </div>
@@ -677,234 +708,531 @@
 
 
 <script>
+    function resetSessionValue() {
+        localStorage.removeItem("attemptCounter");
+
+        localStorage.removeItem("wrongAnswer");
+    }
+
+    window.addEventListener("beforeunload", resetSessionValue);
+
     function handleModalAnswer1(modalId) {
-        var resultImage =$("#modalTrigger1");
+        var resultImage = $("#modalTrigger1");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["riau", "RIAU", "Riau"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
-            
-                if (modalId === "#staticBackdrop1-1") {
-                    $("#staticBackdrop1-2").modal("show");
-                } else if (modalId === "#staticBackdrop1-2") {
-                    $("#staticBackdrop1-3").modal("show");
-                } else if (modalId === "#staticBackdrop1-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_01.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop1-1") {
+                $("#staticBackdrop1-2").modal("show");
+            } else if (modalId === "#staticBackdrop1-2") {
+                $("#staticBackdrop1-3").modal("show");
+            } else if (modalId === "#staticBackdrop1-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_01.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(1)) {
+                    var indexToDelete = wrongAnswer.indexOf(1);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again later.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again later.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (!wrongAnswer.includes(1)) {
+                wrongAnswer.push(1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     function handleModalAnswer2(modalId) {
-        var resultImage =$("#modalTrigger2");
+        var resultImage = $("#modalTrigger2");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["pontianak", "PONTIANAK", "Pontianak"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
-                
-                if (modalId === "#staticBackdrop2-1") {
-                    $("#staticBackdrop2-2").modal("show");
-                } else if (modalId === "#staticBackdrop2-2") {
-                    $("#staticBackdrop2-3").modal("show");
-                } else if (modalId === "#staticBackdrop2-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_02.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop2-1") {
+                $("#staticBackdrop2-2").modal("show");
+            } else if (modalId === "#staticBackdrop2-2") {
+                $("#staticBackdrop2-3").modal("show");
+            } else if (modalId === "#staticBackdrop2-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_02.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(2)) {
+                    var indexToDelete = wrongAnswer.indexOf(2);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (!wrongAnswer.includes(2)) {
+                wrongAnswer.push(2);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     function handleModalAnswer3(modalId) {
-        var resultImage =$("#modalTrigger3");
+        var resultImage = $("#modalTrigger3");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["Kalimantan Timur", "KALIMANTAN TIMUR", "kalimantan timur"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
-                
-                if (modalId === "#staticBackdrop3-1") {
-                    $("#staticBackdrop3-2").modal("show");
-                } else if (modalId === "#staticBackdrop3-2") {
-                    $("#staticBackdrop3-3").modal("show");
-                } else if (modalId === "#staticBackdrop3-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_03.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop3-1") {
+                $("#staticBackdrop3-2").modal("show");
+            } else if (modalId === "#staticBackdrop3-2") {
+                $("#staticBackdrop3-3").modal("show");
+            } else if (modalId === "#staticBackdrop3-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_03.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(3)) {
+                    var indexToDelete = wrongAnswer.indexOf(3);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (!wrongAnswer.includes(3)) {
+                wrongAnswer.push(3);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     function handleModalAnswer4(modalId) {
-        var resultImage =$("#modalTrigger4");
+        var resultImage = $("#modalTrigger4");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["sulawesi utara", "SULAWESI UTARA", "Sulawesi Utara"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
-                
-                if (modalId === "#staticBackdrop4-1") {
-                    $("#staticBackdrop4-2").modal("show");
-                } else if (modalId === "#staticBackdrop4-2") {
-                    $("#staticBackdrop4-3").modal("show");
-                } else if (modalId === "#staticBackdrop4-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_04.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop4-1") {
+                $("#staticBackdrop4-2").modal("show");
+            } else if (modalId === "#staticBackdrop4-2") {
+                $("#staticBackdrop4-3").modal("show");
+            } else if (modalId === "#staticBackdrop4-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_04.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(4)) {
+                    var indexToDelete = wrongAnswer.indexOf(4);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (!wrongAnswer.includes(4)) {
+                wrongAnswer.push(4);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     function handleModalAnswer5(modalId) {
-        var resultImage =$("#modalTrigger5");
+        var resultImage = $("#modalTrigger5");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["papua barat", "PAPUA BARAT", "Papua Barat"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
-                
-                if (modalId === "#staticBackdrop5-1") {
-                    $("#staticBackdrop5-2").modal("show");
-                } else if (modalId === "#staticBackdrop5-2") {
-                    $("#staticBackdrop5-3").modal("show");
-                } else if (modalId === "#staticBackdrop5-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_05.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop5-1") {
+                $("#staticBackdrop5-2").modal("show");
+            } else if (modalId === "#staticBackdrop5-2") {
+                $("#staticBackdrop5-3").modal("show");
+            } else if (modalId === "#staticBackdrop5-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_05.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(5)) {
+                    var indexToDelete = wrongAnswer.indexOf(5);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (!wrongAnswer.includes(5)) {
+                wrongAnswer.push(5);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     function handleModalAnswer6(modalId) {
-        var resultImage =$("#modalTrigger6");
+        var resultImage = $("#modalTrigger6");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["bengkulu", "BENGKULU", "Bengkulu"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
 
-                if (modalId === "#staticBackdrop6-1") {
-                    $("#staticBackdrop6-2").modal("show");
-                } else if (modalId === "#staticBackdrop6-2") {
-                    $("#staticBackdrop6-3").modal("show");
-                } else if (modalId === "#staticBackdrop6-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_06.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop6-1") {
+                $("#staticBackdrop6-2").modal("show");
+            } else if (modalId === "#staticBackdrop6-2") {
+                $("#staticBackdrop6-3").modal("show");
+            } else if (modalId === "#staticBackdrop6-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_06.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(6)) {
+                    var indexToDelete = wrongAnswer.indexOf(6);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (!wrongAnswer.includes(6)) {
+                wrongAnswer.push(6);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     function handleModalAnswer7(modalId) {
-        var resultImage =$("#modalTrigger7");
+        var resultImage = $("#modalTrigger7");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["semarang", "SEMARANG", "Semarang"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
-                
-                if (modalId === "#staticBackdrop7-1") {
-                    $("#staticBackdrop7-2").modal("show");
-                } else if (modalId === "#staticBackdrop7-2") {
-                    $("#staticBackdrop7-3").modal("show");
-                } else if (modalId === "#staticBackdrop7-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_07.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop7-1") {
+                $("#staticBackdrop7-2").modal("show");
+            } else if (modalId === "#staticBackdrop7-2") {
+                $("#staticBackdrop7-3").modal("show");
+            } else if (modalId === "#staticBackdrop7-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_07.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(7)) {
+                    var indexToDelete = wrongAnswer.indexOf(7);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (!wrongAnswer.includes(7)) {
+                wrongAnswer.push(7);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     function handleModalAnswer8(modalId) {
-        var resultImage =$("#modalTrigger8");
+        var resultImage = $("#modalTrigger8");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["nusa tenggara barat", "NUSA TENGGARA BARAT", "Nusa Tenggara Barat"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
-                
-                if (modalId === "#staticBackdrop8-1") {
-                    $("#staticBackdrop8-2").modal("show");
-                } else if (modalId === "#staticBackdrop8-2") {
-                    $("#staticBackdrop8-3").modal("show");
-                } else if (modalId === "#staticBackdrop8-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_08.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop8-1") {
+                $("#staticBackdrop8-2").modal("show");
+            } else if (modalId === "#staticBackdrop8-2") {
+                $("#staticBackdrop8-3").modal("show");
+            } else if (modalId === "#staticBackdrop8-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_08.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(8)) {
+                    var indexToDelete = wrongAnswer.indexOf(8);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+            if (!wrongAnswer.includes(8)) {
+                wrongAnswer.push(8);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     function handleModalAnswer9(modalId) {
-        var resultImage =$("#modalTrigger9");
+        var resultImage = $("#modalTrigger9");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["ambon", "AMBON", "Ambon"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
-                
-                if (modalId === "#staticBackdrop9-1") {
-                    $("#staticBackdrop9-2").modal("show");
-                } else if (modalId === "#staticBackdrop9-2") {
-                    $("#staticBackdrop9-3").modal("show");
-                } else if (modalId === "#staticBackdrop9-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_09.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop9-1") {
+                $("#staticBackdrop9-2").modal("show");
+            } else if (modalId === "#staticBackdrop9-2") {
+                $("#staticBackdrop9-3").modal("show");
+            } else if (modalId === "#staticBackdrop9-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_09.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(9)) {
+                    var indexToDelete = wrongAnswer.indexOf(9);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (!wrongAnswer.includes(9)) {
+                wrongAnswer.push(9);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     function handleModalAnswer10(modalId) {
-        var resultImage =$("#modalTrigger10");
+        var resultImage = $("#modalTrigger10");
         var userInput = $(modalId + " input").val().trim();
         expectedAnswers = ["papua", "PAPUA", "Papua"];
-            if (expectedAnswers.includes(userInput)) {
-                alert("Correct answer!");
-                $(modalId).modal("hide");
-                
-                if (modalId === "#staticBackdrop10-1") {
-                    $("#staticBackdrop10-2").modal("show");
-                } else if (modalId === "#staticBackdrop10-2") {
-                    $("#staticBackdrop10-3").modal("show");
-                } else if (modalId === "#staticBackdrop10-3") {
-                    resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_10.jpg') }}")
-                    resultImage.css("pointer-events", "none")
+
+        var attemptCounter = Number(localStorage.getItem("attemptCounter") || 0);
+        var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
+
+        if (expectedAnswers.includes(userInput)) {
+            alert("Correct answer!");
+            $(modalId).modal("hide");
+
+            if (modalId === "#staticBackdrop10-1") {
+                $("#staticBackdrop10-2").modal("show");
+            } else if (modalId === "#staticBackdrop10-2") {
+                $("#staticBackdrop10-3").modal("show");
+            } else if (modalId === "#staticBackdrop10-3") {
+                resultImage.attr("src", "{{ asset('images/MOB_Game_Asset_10.jpg') }}");
+                resultImage.css("pointer-events", "none");
+
+                if (wrongAnswer.includes(10)) {
+                    var indexToDelete = wrongAnswer.indexOf(10);
+                    wrongAnswer.splice(indexToDelete, 1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-            } else {
-                alert("Incorrect answer. Please try again.");
-                resultImage.css("pointer-events", "none")
-                $(modalId).modal("hide");
+
+                attemptCounter += 1;
+                localStorage.setItem("attemptCounter", attemptCounter);
             }
+        } else {
+            $(modalId + " input").val('');
+            alert("Incorrect answer. Please try again.");
+            resultImage.css("pointer-events", "none");
+            $(modalId).modal("hide");
+
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (!wrongAnswer.includes(10)) {
+                wrongAnswer.push(10);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+        }
+        if (attemptCounter == 10) {
+            localStorage.setItem("attemptCounter", 10 - wrongAnswer.length);
+
+            for (var i = 0; i < wrongAnswer.length; i++) {
+                $("#modalTrigger" + wrongAnswer[i]).css("pointer-events", "auto");
+            }
+        }
     }
 
     $(document).ready(function() {

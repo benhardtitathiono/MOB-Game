@@ -24,11 +24,11 @@
 }
 
 .overlay {
-    background-color: #1a1c27;
-    color: #9ee3d5;
-    border: 5px solid #9ee3d5;
+    background-color: #494a70;
+    color: #f2f2f3;
     animation: entrance 700ms ease-out;
     animation-fill-mode: backwards;
+    border: 0.5rem solid #f2f2f3;
 }
 
 .overlay.hidden {
@@ -43,7 +43,7 @@
 }
 
 .overlayer div:hover {
-    color: #0099ff;
+    color: #388eb8;
     transition: 400ms;
 }
 

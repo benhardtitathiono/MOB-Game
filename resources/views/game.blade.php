@@ -811,7 +811,7 @@ style="background-color:#464a57; color:white; padding:1.5rem; width:20rem; heigh
             } else if (modalId === "#staticBackdrop2-2") {
                 $("#staticBackdrop2-3").modal("show");
             } else{
-                document.getElementById("modalTrigger1").classList.add('hidden');
+                document.getElementById("modalTrigger2").classList.add('hidden');
                 if (wrongAnswer.includes(2)) {
                     var indexToDelete = wrongAnswer.indexOf(2);
                     wrongAnswer.splice(indexToDelete, 1);
@@ -854,7 +854,7 @@ style="background-color:#464a57; color:white; padding:1.5rem; width:20rem; heigh
             } else if (modalId === "#staticBackdrop3-2") {
                 $("#staticBackdrop3-3").modal("show");
             } else{
-                document.getElementById("modalTrigger1").classList.add('hidden');
+                document.getElementById("modalTrigger3").classList.add('hidden');
                 if (wrongAnswer.includes(3)) {
                     var indexToDelete = wrongAnswer.indexOf(3);
                     wrongAnswer.splice(indexToDelete, 1);
@@ -897,7 +897,7 @@ style="background-color:#464a57; color:white; padding:1.5rem; width:20rem; heigh
             } else if (modalId === "#staticBackdrop4-2") {
                 $("#staticBackdrop4-3").modal("show");
             } else{
-                document.getElementById("modalTrigger1").classList.add('hidden');
+                document.getElementById("modalTrigger4").classList.add('hidden');
                 if (wrongAnswer.includes(4)) {
                     var indexToDelete = wrongAnswer.indexOf(4);
                     wrongAnswer.splice(indexToDelete, 1);
@@ -940,7 +940,7 @@ style="background-color:#464a57; color:white; padding:1.5rem; width:20rem; heigh
             } else if (modalId === "#staticBackdrop5-2") {
                 $("#staticBackdrop5-3").modal("show");
             } else{
-                document.getElementById("modalTrigger1").classList.add('hidden');
+                document.getElementById("modalTrigger5").classList.add('hidden');
                 if (wrongAnswer.includes(5)) {
                     var indexToDelete = wrongAnswer.indexOf(5);
                     wrongAnswer.splice(indexToDelete, 1);
@@ -978,12 +978,12 @@ style="background-color:#464a57; color:white; padding:1.5rem; width:20rem; heigh
         var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
         if (expectedAnswers.includes(userInput)) {
                 $(modalId).modal("hide");
-            if (modalId === "#staticBackdrop1-1") {
+            if (modalId === "#staticBackdrop6-1") {
                 $("#staticBackdrop6-2").modal("show");
             } else if (modalId === "#staticBackdrop6-2") {
                 $("#staticBackdrop6-3").modal("show");
             } else{
-                document.getElementById("modalTrigger1").classList.add('hidden');
+                document.getElementById("modalTrigger6").classList.add('hidden');
                 if (wrongAnswer.includes(6)) {
                     var indexToDelete = wrongAnswer.indexOf(6);
                     wrongAnswer.splice(indexToDelete, 1);
@@ -1021,12 +1021,12 @@ style="background-color:#464a57; color:white; padding:1.5rem; width:20rem; heigh
         var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
         if (expectedAnswers.includes(userInput)) {
                 $(modalId).modal("hide");
-            if (modalId === "#staticBackdrop1-1") {
+            if (modalId === "#staticBackdrop7-1") {
                 $("#staticBackdrop7-2").modal("show");
             } else if (modalId === "#staticBackdrop7-2") {
                 $("#staticBackdrop7-3").modal("show");
             } else{
-                document.getElementById("modalTrigger1").classList.add('hidden');
+                document.getElementById("modalTrigger7").classList.add('hidden');
                 if (wrongAnswer.includes(7)) {
                     var indexToDelete = wrongAnswer.indexOf(7);
                     wrongAnswer.splice(indexToDelete, 1);
@@ -1069,7 +1069,7 @@ style="background-color:#464a57; color:white; padding:1.5rem; width:20rem; heigh
             } else if (modalId === "#staticBackdrop8-2") {
                 $("#staticBackdrop8-3").modal("show");
             } else{
-                document.getElementById("modalTrigger1").classList.add('hidden');
+                document.getElementById("modalTrigger8").classList.add('hidden');
                 if (wrongAnswer.includes(8)) {
                     var indexToDelete = wrongAnswer.indexOf(8);
                     wrongAnswer.splice(indexToDelete, 1);
@@ -1112,7 +1112,7 @@ style="background-color:#464a57; color:white; padding:1.5rem; width:20rem; heigh
             } else if (modalId === "#staticBackdrop9-2") {
                 $("#staticBackdrop9-3").modal("show");
             } else{
-                document.getElementById("modalTrigger1").classList.add('hidden');
+                document.getElementById("modalTrigger9").classList.add('hidden');
                 if (wrongAnswer.includes(9)) {
                     var indexToDelete = wrongAnswer.indexOf(9);
                     wrongAnswer.splice(indexToDelete, 1);
@@ -1150,12 +1150,12 @@ style="background-color:#464a57; color:white; padding:1.5rem; width:20rem; heigh
         var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
         if (expectedAnswers.includes(userInput)) {
                 $(modalId).modal("hide");
-            if (modalId === "#staticBackdrop1-1") {
+            if (modalId === "#staticBackdrop10-1") {
                 $("#staticBackdrop10-2").modal("show");
             } else if (modalId === "#staticBackdrop10-2") {
                 $("#staticBackdrop10-3").modal("show");
             } else{
-                document.getElementById("modalTrigger1").classList.add('hidden');
+                document.getElementById("modalTrigger10").classList.add('hidden');
                 if (wrongAnswer.includes(10)) {
                     var indexToDelete = wrongAnswer.indexOf(10);
                     wrongAnswer.splice(indexToDelete, 1);

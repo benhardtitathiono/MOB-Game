@@ -39,7 +39,7 @@
     grid-template-areas:
         "a c e g i"
         "b d f h j";
-    --stagger-delay: 150ms;
+    --stagger-delay: 100ms;
 }
 
 .overlayer div:hover {

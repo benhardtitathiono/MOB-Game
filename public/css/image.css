@@ -28,7 +28,7 @@
     color: #f2f2f3;
     animation: entrance 700ms ease-out;
     animation-fill-mode: backwards;
-    border: 0.5rem solid #f2f2f3;
+    border: 0.1rem solid #f2f2f3;
 }
 
 .overlay.hidden {

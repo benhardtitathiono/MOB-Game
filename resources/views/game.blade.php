@@ -49,14 +49,14 @@
 </div>
 
 <div class="card text-center position-absolute top-50 start-50 translate-middle popup"
-    style="background-color:#0d0d0d; color:white; padding:1.5rem; width:20rem; height:18rem" id="jawabanBenar">
+    style="background-color:#0d0d0d; color:white; padding:1.5rem; width:20rem; height:20rem" id="jawabanBenar">
     <div>
         <img src="{{ asset('images/jawabanBenar.png') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col" style="width:11rem;height:11rem;">
         <div style="font-size:18px; font-weight:bold;">Selamat! jawaban kamu benar</div>
     </div>
     <div class="card-footer" style="padding:1rem">
-        <button style="color:white; background-color:#438a53; width:10rem; border-radius:10px; font-weight:bold;"
+        <button style="color:white; background-color:#388eb8; width:10rem; border-radius:10px; font-weight:bold;"
             onclick="closeDiv('jawabanBenar')">Close</button>
     </div>
 </div>
@@ -69,7 +69,7 @@
         <div style="font-size:18px; font-weight:bold;">Jawaban kamu masih salah, coba lagi</div>
     </div>
     <div class="card-footer" style="padding:1rem">
-        <button style="color:white; background-color:#438a53; width:10rem; border-radius:10px; font-weight:bold;"
+        <button style="color:white; background-color:#388eb8; width:10rem; border-radius:10px; font-weight:bold;"
             onclick="closeDiv('jawabanSalah')">Close</button>
     </div>
 </div>
@@ -82,7 +82,7 @@
         <div style="font-size:18px; font-weight:bold;">Selamat! kamu berhasil</div>
     </div>
     <div class="card-footer" style="padding:1rem">
-        <button style="color:white; background-color:#438a53; width:10rem; border-radius:10px; font-weight:bold;"
+        <button style="color:white; background-color:#388eb8; width:10rem; border-radius:10px; font-weight:bold;"
             onclick="closeDiv('finish')">Close</button>
     </div>
 </div>
@@ -798,15 +798,11 @@
                 }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {
@@ -861,15 +857,11 @@
 
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {
@@ -924,15 +916,11 @@
                 }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {
@@ -985,15 +973,11 @@
                 }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {
@@ -1047,15 +1031,11 @@
                 }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {
@@ -1109,15 +1089,11 @@
                 }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {
@@ -1171,15 +1147,11 @@
                 }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                  if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {
@@ -1234,15 +1206,11 @@
                 }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {
@@ -1296,15 +1264,11 @@
                 }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {
@@ -1356,15 +1320,11 @@
                 }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                var rightAnswer = Number(localStorage.getItem("rightAnswer") || 0);
-                rightAnswer += 1;
-                localStorage.setItem("rightAnswer", rightAnswer);
-                if(rightAnswer!=10){
-                    localStorage.setItem("attemptCounter", attemptCounter);
-                    document.getElementById("jawabanBenar").classList.add('show');
+                if(attemptCounter==10 && wrongAnswer.length==0){
+                    document.getElementById("finish").classList.add('show');
                 }
                 else{
-                    document.getElementById("finish").classList.add('show');
+                    document.getElementById("jawabanBenar").classList.add('show');
                 }
             }
         } else {

@@ -53,7 +53,7 @@
     <div>
         <img src="{{ asset('images/jawabanBenar.png') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col" style="width:11rem;height:11rem;">
-        <div style="font-size:18px; font-weight:bold;">Selamat! jawaban kamu benar</div>
+        <div style="font-size:18px; font-weight:bold;">Selamat! jawaban kalian benar</div>
     </div>
     <div class="card-footer" style="padding:1rem">
         <button style="color:white; background-color:#388eb8; width:10rem; border-radius:10px; font-weight:bold;"
@@ -66,7 +66,7 @@
     <div>
         <img src="{{ asset('images/jawabanSalah.png') }}" alt="" id=""
             data-bs-target="#staticBackdrop" class="col" style="width:11rem;height:11rem;">
-        <div style="font-size:18px; font-weight:bold;">Jawaban kamu masih salah, coba lagi</div>
+        <div style="font-size:18px; font-weight:bold;">Jawaban kalian masih salah, coba lagi nanti</div>
     </div>
     <div class="card-footer" style="padding:1rem">
         <button style="color:white; background-color:#388eb8; width:10rem; border-radius:10px; font-weight:bold;"
@@ -93,8 +93,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 1-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 1</h1>
             </div>
             <div class="modal-body">
                 Bumi bertuah negeri beradat (Melayu) Bumi Sang Raja Negeri Beradat adalah motto dari provinsi?
@@ -102,9 +101,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer1-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer1('#staticBackdrop1-1')">Understood</button>
+                    onclick="handleModalAnswer1('#staticBackdrop1-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -115,8 +113,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 1-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 1</h1>
             </div>
             <div class="modal-body">
                 Batik bono khas pelalawan berasal dari provinsi?
@@ -124,9 +121,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer1-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer1('#staticBackdrop1-2')">Understood</button>
+                    onclick="handleModalAnswer1('#staticBackdrop1-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -137,8 +133,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 1-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 1</h1>
             </div>
             <div class="modal-body">
                 Bumi lancang kuning merupakan nama lain dari kota?
@@ -146,9 +141,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer1-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer1('#staticBackdrop1-3')">Understood</button>
+                    onclick="handleModalAnswer1('#staticBackdrop1-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -159,8 +153,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 2-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 2</h1>
             </div>
             <div class="modal-body">
                 Tenun corak insang merupakan tenunan tradisional berasal dari manakah?
@@ -168,9 +161,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer2-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer2('#staticBackdrop2-1')">Understood</button>
+                    onclick="handleModalAnswer2('#staticBackdrop2-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -181,8 +173,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 2-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 2</h1>
             </div>
             <div class="modal-body">
                 Kota terpadat ke-26 di Indonesia adalah?
@@ -190,9 +181,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer2-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer2('#staticBackdrop2-2')">Understood</button>
+                    onclick="handleModalAnswer2('#staticBackdrop2-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -203,8 +193,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 2-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 2</h1>
             </div>
             <div class="modal-body">
                 Kota yang memiliki julukan Kota Khatulistiwa merupakan kota apa?
@@ -212,9 +201,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer2-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer2('#staticBackdrop2-3')">Understood</button>
+                    onclick="handleModalAnswer2('#staticBackdrop2-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -225,8 +213,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 3-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 3</h1>
             </div>
             <div class="modal-body">
                 Rumah lamin merupakan rumah panggung dengan tinggi mencapai 3 meter, rumah adat ini berasal dari?
@@ -234,9 +221,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer3-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer3('#staticBackdrop3-1')">Understood</button>
+                    onclick="handleModalAnswer3('#staticBackdrop3-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -247,8 +233,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 3-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 3</h1>
             </div>
             <div class="modal-body">
                 Nasi bekepor merupakan makanan khas dari?
@@ -256,9 +241,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer3-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer3('#staticBackdrop3-2')">Understood</button>
+                    onclick="handleModalAnswer3('#staticBackdrop3-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -269,8 +253,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 3-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 3</h1>
             </div>
             <div class="modal-body">
                 Salah satu daerah dari provinsi ini merupakan Kerajaan Kutai pertama dan Kerajaan Bercorak Hindu Tertua,
@@ -279,9 +262,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer3-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer3('#staticBackdrop3-3')">Understood</button>
+                    onclick="handleModalAnswer3('#staticBackdrop3-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -292,8 +274,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 4-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 4</h1>
             </div>
             <div class="modal-body">
                 Sitou timou tumou tou yang berarti manusia hidup untuk memanusiakan manusia lain, merupakan semboyan
@@ -302,9 +283,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer4-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer4('#staticBackdrop4-1')">Understood</button>
+                    onclick="handleModalAnswer4('#staticBackdrop4-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -315,8 +295,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 4-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 4</h1>
             </div>
             <div class="modal-body">
                 Bumi Nyiur Melambai merupakan julukan dari provinsi apa?
@@ -324,9 +303,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer4-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer4('#staticBackdrop4-2')">Understood</button>
+                    onclick="handleModalAnswer4('#staticBackdrop4-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -337,8 +315,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 4-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 4</h1>
             </div>
             <div class="modal-body">
                 O Ina Ni Keke merupakan lagu daerah?
@@ -346,9 +323,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer4-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer4('#staticBackdrop4-3')">Understood</button>
+                    onclick="handleModalAnswer4('#staticBackdrop4-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -359,8 +335,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 5-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 5</h1>
             </div>
             <div class="modal-body">
                 Tarian suanggi berasal dari?
@@ -368,9 +343,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer5-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer5('#staticBackdrop5-1')">Understood</button>
+                    onclick="handleModalAnswer5('#staticBackdrop5-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -381,20 +355,17 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 5-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 5</h1>
             </div>
             <div class="modal-body">
                 Provinsi ini memiliki banyak suku, salah satunya adalah suku mairasi. berasal dari manakah suku
                 tersebut?
-
             </div>
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer5-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer5('#staticBackdrop5-2')">Understood</button>
+                    onclick="handleModalAnswer5('#staticBackdrop5-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -405,8 +376,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 5-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 5</h1>
             </div>
             <div class="modal-body">
                 Kapak batu merupakan senjata tradisional yang berasal dari?
@@ -414,9 +384,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer5-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer5('#staticBackdrop5-3')">Understood</button>
+                    onclick="handleModalAnswer5('#staticBackdrop5-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -427,8 +396,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 6-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 6</h1>
             </div>
             <div class="modal-body">
                 Provinsi ini memiliki banyak makanan khas, salah satunya adalah pendap yang mirip seperti pepes ikan.
@@ -437,9 +405,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer6-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer6('#staticBackdrop6-1')">Understood</button>
+                    onclick="handleModalAnswer6('#staticBackdrop6-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -450,8 +417,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 6-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 6</h1>
             </div>
             <div class="modal-body">
                 Provinsi ini memiliki rumah adat yang bernama bubungan lima. Berasal darimana?
@@ -459,9 +425,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer6-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer6('#staticBackdrop6-2')">Understood</button>
+                    onclick="handleModalAnswer6('#staticBackdrop6-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -472,8 +437,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 6-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 6</h1>
             </div>
             <div class="modal-body">
                 Suku Serawai berasal dari?
@@ -481,9 +445,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer6-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer6('#staticBackdrop6-3')">Understood</button>
+                    onclick="handleModalAnswer6('#staticBackdrop6-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -494,8 +457,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 7-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 7</h1>
             </div>
             <div class="modal-body">
                 Dugderan adalah tradisi perayaan menyambut bulan Ramadhan, tradisi tersebut dilakukan oleh masyarakat
@@ -504,9 +466,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer7-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer7('#staticBackdrop7-1')">Understood</button>
+                    onclick="handleModalAnswer7('#staticBackdrop7-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -517,8 +478,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 7-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 7</h1>
             </div>
             <div class="modal-body">
                 Warak ngendok merupakan mainan khas dan menjadi ikon dari kota?
@@ -526,9 +486,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer7-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer7('#staticBackdrop7-2')">Understood</button>
+                    onclick="handleModalAnswer7('#staticBackdrop7-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -539,8 +498,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 7-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 7</h1>
             </div>
             <div class="modal-body">
                 Jawi jangkep merupakan pakaian adat yang berasal dari suatu provinsi, dimanakah ibukota provinsi
@@ -549,9 +507,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer7-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer7('#staticBackdrop7-3')">Understood</button>
+                    onclick="handleModalAnswer7('#staticBackdrop7-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -562,8 +519,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 8-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 8</h1>
             </div>
             <div class="modal-body">
                 Pulau Seribu Masjid merupakan julukan salah satu pulau, berasal dari provinsi apakah pulau tersebut?
@@ -571,9 +527,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer8-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer8('#staticBackdrop8-1')">Understood</button>
+                    onclick="handleModalAnswer8('#staticBackdrop8-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -584,8 +539,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 8-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 8</h1>
             </div>
             <div class="modal-body">
                 Ayam taliwang merupakan makanan khas dari?
@@ -593,9 +547,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer8-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer8('#staticBackdrop8-2')">Understood</button>
+                    onclick="handleModalAnswer8('#staticBackdrop8-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -606,8 +559,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 8-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 8</h1>
             </div>
             <div class="modal-body">
                 Suku Sasak berasal dari provinsi?
@@ -615,9 +567,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer8-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer8('#staticBackdrop8-3')">Understood</button>
+                    onclick="handleModalAnswer8('#staticBackdrop8-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -628,8 +579,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 9-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 9</h1>
             </div>
             <div class="modal-body">
                 Baileo merupakan rumah tradisional yang berasal dari salah satu provinsi, dimanakah ibukota provinsi
@@ -638,9 +588,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer9-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer9('#staticBackdrop9-1')">Understood</button>
+                    onclick="handleModalAnswer9('#staticBackdrop9-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -651,8 +600,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 9-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 9</h1>
             </div>
             <div class="modal-body">
                 Arababu merupakan salah satu alat musik tradisional yang berbentuk seperti rebab dan berasal dari salah
@@ -661,9 +609,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer9-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer9('#staticBackdrop9-2')">Understood</button>
+                    onclick="handleModalAnswer9('#staticBackdrop9-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -674,8 +621,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 9-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 9</h1>
             </div>
             <div class="modal-body">
                 Baju Cele merupakan pakaian adat yang biasanya dipakai dalam upacara adat yang berasal dari salah satu
@@ -684,9 +630,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer9-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer9('#staticBackdrop9-3')">Understood</button>
+                    onclick="handleModalAnswer9('#staticBackdrop9-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -697,8 +642,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 10-1</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 10</h1>
             </div>
             <div class="modal-body">
                 Keladi tumbuk merupakan talas yang direbus lalu ditumbuk, hidangan khas manakah?
@@ -706,9 +650,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer10-1"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer10('#staticBackdrop10-1')">Understood</button>
+                    onclick="handleModalAnswer10('#staticBackdrop10-1')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -719,8 +662,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 10-2</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 10</h1>
             </div>
             <div class="modal-body">
                 Senjata tradisional dari provinsi ini adalah Pisau Belati, provinsi manakah itu?
@@ -728,9 +670,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer10-2"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer10('#staticBackdrop10-2')">Understood</button>
+                    onclick="handleModalAnswer10('#staticBackdrop10-2')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -741,8 +682,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title 10-3</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Kotak 10</h1>
             </div>
             <div class="modal-body">
                 Suku Asmat merupakan suku yang berasal dari?
@@ -750,9 +690,8 @@
             <div class="modal-footer">
                 <input type="text" name="" class="form-control" id="txtAnswer10-3"
                     placeholder="Enter Your Answer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary"
-                    onclick="handleModalAnswer10('#staticBackdrop10-3')">Understood</button>
+                    onclick="handleModalAnswer10('#staticBackdrop10-3')">Submit Answer</button>
             </div>
         </div>
     </div>
@@ -783,41 +722,43 @@
 
             $(modalId).modal("hide");
 
+            document.getElementById("modalTrigger1").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(1)) {
+                var indexToDelete = wrongAnswer.indexOf(1);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop1-1") {
                 $("#staticBackdrop1-2").modal("show");
             } else if (modalId === "#staticBackdrop1-2") {
                 $("#staticBackdrop1-3").modal("show");
             } else if (modalId === "#staticBackdrop1-3") {
-                document.getElementById("modalTrigger1").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(1)) {
-                    var indexToDelete = wrongAnswer.indexOf(1);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-                }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(1)) {
+                    wrongAnswer.push(1);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
-
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(1)) {
-                wrongAnswer.push(1);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
@@ -841,42 +782,43 @@
 
             $(modalId).modal("hide");
 
+            document.getElementById("modalTrigger2").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(2)) {
+                var indexToDelete = wrongAnswer.indexOf(2);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop2-1") {
                 $("#staticBackdrop2-2").modal("show");
             } else if (modalId === "#staticBackdrop2-2") {
                 $("#staticBackdrop2-3").modal("show");
             } else if (modalId === "#staticBackdrop2-3") {
-                document.getElementById("modalTrigger2").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(2)) {
-                    var indexToDelete = wrongAnswer.indexOf(2);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-                }
-
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(2)) {
+                    wrongAnswer.push(2);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
-
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(2)) {
-                wrongAnswer.push(2);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
@@ -900,42 +842,43 @@
 
             $(modalId).modal("hide");
 
+            document.getElementById("modalTrigger3").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(3)) {
+                var indexToDelete = wrongAnswer.indexOf(3);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop3-1") {
                 $("#staticBackdrop3-2").modal("show");
             } else if (modalId === "#staticBackdrop3-2") {
                 $("#staticBackdrop3-3").modal("show");
             } else if (modalId === "#staticBackdrop3-3") {
-                document.getElementById("modalTrigger3").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(3)) {
-                    var indexToDelete = wrongAnswer.indexOf(3);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-
-                }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(3)) {
+                    wrongAnswer.push(3);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
-
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(3)) {
-                wrongAnswer.push(3);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
@@ -958,41 +901,44 @@
 
             $(modalId).modal("hide");
 
+            document.getElementById("modalTrigger4").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(4)) {
+                var indexToDelete = wrongAnswer.indexOf(4);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop4-1") {
                 $("#staticBackdrop4-2").modal("show");
             } else if (modalId === "#staticBackdrop4-2") {
                 $("#staticBackdrop4-3").modal("show");
             } else if (modalId === "#staticBackdrop4-3") {
-                document.getElementById("modalTrigger4").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(4)) {
-                    var indexToDelete = wrongAnswer.indexOf(4);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-                }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(4)) {
+                    wrongAnswer.push(4);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
 
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(4)) {
-                wrongAnswer.push(4);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
@@ -1015,42 +961,43 @@
 
             $(modalId).modal("hide");
 
+            document.getElementById("modalTrigger5").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(5)) {
+                var indexToDelete = wrongAnswer.indexOf(5);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop5-1") {
                 $("#staticBackdrop5-2").modal("show");
             } else if (modalId === "#staticBackdrop5-2") {
                 $("#staticBackdrop5-3").modal("show");
             } else if (modalId === "#staticBackdrop5-3") {
-                document.getElementById("modalTrigger5").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(5)) {
-                    var indexToDelete = wrongAnswer.indexOf(5);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-
-                }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(5)) {
+                    wrongAnswer.push(5);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
-
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(5)) {
-                wrongAnswer.push(5);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
@@ -1074,41 +1021,43 @@
 
             $(modalId).modal("hide");
 
+            document.getElementById("modalTrigger6").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(6)) {
+                var indexToDelete = wrongAnswer.indexOf(6);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop6-1") {
                 $("#staticBackdrop6-2").modal("show");
             } else if (modalId === "#staticBackdrop6-2") {
                 $("#staticBackdrop6-3").modal("show");
             } else if (modalId === "#staticBackdrop6-3") {
-                document.getElementById("modalTrigger6").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(6)) {
-                    var indexToDelete = wrongAnswer.indexOf(6);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-                }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(6)) {
+                    wrongAnswer.push(6);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
-
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(6)) {
-                wrongAnswer.push(6);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
@@ -1132,41 +1081,43 @@
 
             $(modalId).modal("hide");
 
+            document.getElementById("modalTrigger7").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(7)) {
+                var indexToDelete = wrongAnswer.indexOf(7);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop7-1") {
                 $("#staticBackdrop7-2").modal("show");
             } else if (modalId === "#staticBackdrop7-2") {
                 $("#staticBackdrop7-3").modal("show");
             } else if (modalId === "#staticBackdrop7-3") {
-                document.getElementById("modalTrigger7").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(7)) {
-                    var indexToDelete = wrongAnswer.indexOf(7);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-                }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                  if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(7)) {
+                    wrongAnswer.push(7);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
-
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(7)) {
-                wrongAnswer.push(7);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
@@ -1191,41 +1142,43 @@
 
             $(modalId).modal("hide");
 
+            document.getElementById("modalTrigger8").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(8)) {
+                var indexToDelete = wrongAnswer.indexOf(8);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop8-1") {
                 $("#staticBackdrop8-2").modal("show");
             } else if (modalId === "#staticBackdrop8-2") {
                 $("#staticBackdrop8-3").modal("show");
             } else if (modalId === "#staticBackdrop8-3") {
-                document.getElementById("modalTrigger8").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(8)) {
-                    var indexToDelete = wrongAnswer.indexOf(8);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-                }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(8)) {
+                    wrongAnswer.push(8);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
-
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(8)) {
-                wrongAnswer.push(8);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
@@ -1249,41 +1202,43 @@
 
             $(modalId).modal("hide");
 
+            document.getElementById("modalTrigger9").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(9)) {
+                var indexToDelete = wrongAnswer.indexOf(9);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop9-1") {
                 $("#staticBackdrop9-2").modal("show");
             } else if (modalId === "#staticBackdrop9-2") {
                 $("#staticBackdrop9-3").modal("show");
             } else if (modalId === "#staticBackdrop9-3") {
-                document.getElementById("modalTrigger9").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(9)) {
-                    var indexToDelete = wrongAnswer.indexOf(9);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-                }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(9)) {
+                    wrongAnswer.push(9);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
-
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(9)) {
-                wrongAnswer.push(9);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
@@ -1304,42 +1259,46 @@
         var wrongAnswer = JSON.parse(localStorage.getItem("wrongAnswer") || "[]");
 
         if (expectedAnswers.includes(userInput)) {
+
             $(modalId).modal("hide");
+
+            document.getElementById("modalTrigger10").classList.add('hidden');
+            resultImage.css("pointer-events", "none");
+            attemptCounter += 1;
+            localStorage.setItem("attemptCounter", attemptCounter);
+
+            if (wrongAnswer.includes(10)) {
+                var indexToDelete = wrongAnswer.indexOf(10);
+                wrongAnswer.splice(indexToDelete, 1);
+                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
+            }
+
+            if (attemptCounter == 10 && wrongAnswer.length == 0) {
+                document.getElementById("finish").classList.add('show');
+            } else {
+                document.getElementById("jawabanBenar").classList.add('show');
+            }
+
+        } else {
+            $(modalId + " input").val('');
+            $(modalId).modal("hide");
+            alert("Jawaban kalian salah");
+
             if (modalId === "#staticBackdrop10-1") {
                 $("#staticBackdrop10-2").modal("show");
             } else if (modalId === "#staticBackdrop10-2") {
                 $("#staticBackdrop10-3").modal("show");
             } else if (modalId === "#staticBackdrop10-3") {
-                document.getElementById("modalTrigger10").classList.add('hidden');
                 resultImage.css("pointer-events", "none");
-
-                if (wrongAnswer.includes(10)) {
-                    var indexToDelete = wrongAnswer.indexOf(10);
-                    wrongAnswer.splice(indexToDelete, 1);
-                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
-                }
                 attemptCounter += 1;
                 localStorage.setItem("attemptCounter", attemptCounter);
-                if(attemptCounter==10 && wrongAnswer.length==0){
-                    document.getElementById("finish").classList.add('show');
+
+                document.getElementById("jawabanSalah").classList.add('show');
+
+                if (!wrongAnswer.includes(10)) {
+                    wrongAnswer.push(10);
+                    localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
                 }
-                else{
-                    document.getElementById("jawabanBenar").classList.add('show');
-                }
-            }
-        } else {
-            $(modalId + " input").val('');
-            resultImage.css("pointer-events", "none");
-            $(modalId).modal("hide");
-
-            attemptCounter += 1;
-            localStorage.setItem("attemptCounter", attemptCounter);
-
-            document.getElementById("jawabanSalah").classList.add('show');
-
-            if (!wrongAnswer.includes(10)) {
-                wrongAnswer.push(10);
-                localStorage.setItem("wrongAnswer", JSON.stringify(wrongAnswer));
             }
         }
         if (attemptCounter == 10) {
